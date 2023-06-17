@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 35165896200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should select Online Slots option successfully",
+        "description": "",
+        "id": "online-slots;user-should-select-online-slots-option-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 681477000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 150442200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 248737500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Online Slots link",
+            "match": {
+              "location": "HomePageSteps.iClickOnOnlineSlotsLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 532882100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should navigate to Online Slots page successfully",
+            "match": {
+              "location": "HomePageSteps.iShouldNavigateToOnlineSlotsPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Online Slots",
+    "description": "As user I want to select Online Slots option",
+    "id": "online-slots",
+    "keyword": "Feature",
+    "uri": "homepage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
